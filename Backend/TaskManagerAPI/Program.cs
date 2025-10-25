@@ -8,6 +8,13 @@ using TaskManagerAPI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configure Kestrel to listen on the port provided by Render
+builder.WebHost.ConfigureKestrel(options =>
+{
+    var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+    options.ListenAnyIP(int.Parse(port));
+});
+
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -19,9 +26,13 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         policy =>
         {
-            policy.WithOrigins("http://localhost:3000", "http://localhost:5173")
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
+            policy.WithOrigins(
+                "http://localhost:3000", 
+                "http://localhost:5173",
+                "https://yashwanthboda.github.io"  // Add your GitHub Pages URL
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
         });
 });
 

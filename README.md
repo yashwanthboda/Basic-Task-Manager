@@ -2,6 +2,8 @@
 
 A simple task manager application built with .NET 8 Core (Backend) and React + TypeScript (Frontend).
 
+🌐 **Live Demo**: [View Application](https://yashwanthboda.github.io/Basic-Task-Manager/)
+
 ## Features
 
 - ✅ Display a list of tasks
@@ -120,4 +122,44 @@ Estimated completion time: 3-6 hours
 - Save tasks in localStorage
 - Use Axios or Fetch for API integration
 - React Hooks for state management
+
+---
+
+## 🚀 Deployment
+
+This application is configured for deployment:
+- **Frontend**: GitHub Pages
+- **Backend**: Render
+
+### Quick Deploy
+
+See detailed deployment instructions in:
+- 📖 **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Complete step-by-step guide
+- 📋 **[CHECKLIST.md](./CHECKLIST.md)** - Pre-deployment checklist
+- ⚡ **[QUICK-DEPLOY.md](./QUICK-DEPLOY.md)** - Quick reference
+
+### Deployment Architecture
+
+```
+┌─────────────────────────────────────────┐
+│                                         │
+│  GitHub Pages (Frontend)                │
+│  https://yashwanthboda.github.io/       │
+│         Basic-Task-Manager/             │
+│                                         │
+└──────────────┬──────────────────────────┘
+               │
+               │ HTTPS/REST API
+               │
+               ▼
+┌─────────────────────────────────────────┐
+│                                         │
+│  Render (Backend API)                   │
+│  https://your-app.onrender.com          │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+---
+
 # Basic-Task-Manager

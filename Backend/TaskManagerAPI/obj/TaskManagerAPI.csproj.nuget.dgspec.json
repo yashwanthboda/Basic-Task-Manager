@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yashr\\Project 1\\Backend\\TaskManagerAPI\\TaskManagerAPI.csproj": {}
+    "C:\\Users\\yashr\\Basic-Task-Manager\\Backend\\TaskManagerAPI\\TaskManagerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yashr\\Project 1\\Backend\\TaskManagerAPI\\TaskManagerAPI.csproj": {
+    "C:\\Users\\yashr\\Basic-Task-Manager\\Backend\\TaskManagerAPI\\TaskManagerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yashr\\Project 1\\Backend\\TaskManagerAPI\\TaskManagerAPI.csproj",
+        "projectUniqueName": "C:\\Users\\yashr\\Basic-Task-Manager\\Backend\\TaskManagerAPI\\TaskManagerAPI.csproj",
         "projectName": "TaskManagerAPI",
-        "projectPath": "C:\\Users\\yashr\\Project 1\\Backend\\TaskManagerAPI\\TaskManagerAPI.csproj",
+        "projectPath": "C:\\Users\\yashr\\Basic-Task-Manager\\Backend\\TaskManagerAPI\\TaskManagerAPI.csproj",
         "packagesPath": "C:\\Users\\yashr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yashr\\Project 1\\Backend\\TaskManagerAPI\\obj\\",
+        "outputPath": "C:\\Users\\yashr\\Basic-Task-Manager\\Backend\\TaskManagerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yashr\\AppData\\Roaming\\NuGet\\NuGet.Config",
